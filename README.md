@@ -7,3 +7,6 @@ Para executar você precisa ter instalado o docker na sua máquina.
 ## Para executar
 ```
  docker-compose up -d
+
+---
+Desenvolvido por Marina Spadetto e Matheus Costa
