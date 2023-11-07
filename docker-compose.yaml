@@ -18,11 +18,9 @@ services:
     image: dpage/pgadmin4
     ports:
       - "15432:80"
-
-    # PARA TER ACESSO AO PGADMIN, SETAR AS CREDENCIAIS
-    # environment:
-    #   - PGADMIN_DEFAULT_EMAIL=
-    #   - PGADMIN_DEFAULT_PASSWORD=
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=DATABASE_EMAIL
+      - PGADMIN_DEFAULT_PASSWORD=DATABASE_PASSWORD
     networks:
       - my-network
 
